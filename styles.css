@@ -1,0 +1,92 @@
+:root{
+    --lighter: #EDEDD5;
+    --light: #80D1C6;
+    --medium: #77A897;
+    --dark:#8F3907;
+    --darker:#333128;
+  }
+  body{
+    color: var(--lighter);
+    background-color: var(--darker);
+    font-family: Roboto Condensed;
+    
+    min-width:900px;
+    
+  }
+  
+  
+  .thin-border{
+    border: 1px solid black;
+  }
+  
+  h1{
+    
+    max-width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+    font-family: Playfair Display;
+    text-align: center;
+  
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    
+  }
+  
+  #definition{
+    width: 60%;
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    
+    /*border: 1px red solid;*/
+  
+  }
+  
+  .centered{
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px red solid;*/
+  }
+  
+  .in-centered{
+   text-align: center;
+    /*border: 1px red solid;*/
+  }
+  
+  #user-field{
+    max-width: 50%;
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .big-icon{
+    font-size: 3rem;
+    color: var(--dark);
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    margin-right: 10px;
+  }
+  
+  fieldset{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border: 0.06rem solid;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+  }
+  
+  #chk-butt{
+    text-align:center;
+    
+    
+  }
+  
+  .highlight{
+    color: var(--light);
+    
+  }
+  
+  

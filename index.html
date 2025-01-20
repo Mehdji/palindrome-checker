@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta display="viewport" name="width=device-width,initial-scale1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Palindrome Checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b90a9ecdfa.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="in-centered">
+    <main>
+      
+        
+        <h1 class="centered"><i class="fa-solid fa-magnifying-glass big-icon"></i>  Palindrome Checker</h1>
+        <p id="definition" class="centered" >
+          <i class="fa-solid fa-question big-icon"></i> A palindrome is a word, phrase, number, or sequence of characters <span class="highlight">that reads the same forward and backward</span>, ignoring spaces, punctuation, and capitalization.
+                
+          Examples:
+          Words: radar, level, madam
+          Numbers: 121, 12321
+          Phrases: A man, a plan, a canal, Panama (ignoring spaces and punctuation)
+        </p>
+
+        
+      
+      <div id ="user-field" class="centered">
+        <form  >
+          <fieldset class="in-centered">
+          <label for="text-input">Let's test your word:</label>
+          <input name="text-input" id="text-input" type="text" required>
+          <button type="button" class="centered" id="check-btn"  >Check</button>
+          </fieldset>
+          
+        </form>
+        <div id="result" class="">
+          <p id="result_text"></p>
+          <!--<p id="result_text"><i class="fa-solid fa-check big-icon"></i>Yours text is a palindrome</p>
+          <p><i class="fa-solid fa-xmark big-icon"></i>Yours text is not palindrome</p>-->
+      </div>
+        
+      </div>
+
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
